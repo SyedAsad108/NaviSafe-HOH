@@ -9,7 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export', // ✅ for static export builds
-};
+  output: 'export', // ✅ Enables static HTML export (required for Amplify)
+}
 
-export default nextConfig;
+export default nextConfig
